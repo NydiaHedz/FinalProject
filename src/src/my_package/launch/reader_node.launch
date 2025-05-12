@@ -1,0 +1,7 @@
+<launch>
+    <node name="reader_node"
+          pkg="my_package"
+          type="reader_node.py"
+          output="screen"
+          required="true"/>
+</launch>
